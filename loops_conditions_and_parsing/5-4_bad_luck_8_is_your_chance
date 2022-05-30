@@ -3,9 +3,9 @@
 i=0
 while [ $i -lt 10 ]; do
 	((i++))
-	if [ $i == "3" ]; then
+	if [ $i == "4" ]; then
 		echo "Bad luck"
-		elif [ $i == "7" ]; then
+		elif [ $i == "8" ]; then
 			echo "Good luck"
 		else
 			echo "Best School"	
