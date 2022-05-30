@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #bash script that displays numbers from 1 to 20 and luck messages
-i=0
+i=1
 while [ $i -lt 21 ]; do
 	echo $i
 	case "$i" in
