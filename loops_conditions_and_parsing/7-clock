@@ -3,9 +3,9 @@
 minutes=1
 hours=0
 while [ $hours -lt 13 ]; do
-	echo "Hour : $hours"
+	echo Hour : $hours
 	while [ $minutes -lt 60 ]; do
-		echo "$minutes"
+		echo $minutes
 		$minutes++
 	done
 	$minutes
